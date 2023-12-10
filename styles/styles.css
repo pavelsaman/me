@@ -1,0 +1,56 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: #222;
+  text-wrap: nowrap;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.1rem;
+}
+
+p {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+svg {
+  width: 30px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.one {
+  margin-right: 15px;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+}
