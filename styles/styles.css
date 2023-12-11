@@ -41,16 +41,14 @@ svg {
   height: 90vh;
 }
 
+.main-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .contact-info {
   display: flex;
   flex-direction: row;
-}
-
-.one {
-  margin-right: 15px;
-}
-
-.title {
-  text-align: center;
-  font-size: 1.5rem;
+  column-gap: 15px;
 }
