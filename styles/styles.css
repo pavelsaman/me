@@ -68,3 +68,13 @@ svg {
   flex-direction: row;
   column-gap: 15px;
 }
+
+#bug {
+  width: 30px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
