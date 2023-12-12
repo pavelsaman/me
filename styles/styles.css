@@ -70,7 +70,7 @@ svg {
   column-gap: 15px;
 }
 
-.footer {
+.bug-box {
   display: flex;
   column-gap: 5px;
   width: 100vw;
@@ -79,7 +79,7 @@ svg {
   bottom: 0;
 }
 
-.secret-text {
+.bug-secret-text {
   visibility: hidden;
   font-size: 1rem;
 }
@@ -88,6 +88,6 @@ svg {
   width: 30px;
 }
 
-#bug:hover + .secret-text {
+#bug:hover + .bug-secret-text {
   visibility: visible;
 }
