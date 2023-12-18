@@ -93,38 +93,19 @@ svg {
   visibility: visible;
 }
 
-@media screen and (max-width: 430px) {
-  .container {
-    justify-content: flex-start;
-    row-gap: 1rem;
-  }
-
-  .contact-info {
-    flex-direction: column;
-  }
-}
-
-@media screen and (orientation: landscape) and (max-height: 350px) {
-  .container {
-    justify-content: flex-start;
-  }
-
-  .one {
-    display: flex;
-    column-gap: 1rem;
-  }
-
-  .two {
+@media screen and (max-height: 350px) {
+  .bug-box {
     display: none;
   }
 }
 
-@media screen and (orientation: portrait) and (max-height: 444px) {
-  .one {
-    display: flex;
-    flex-direction: column;
+@media screen and (max-width: 317px) and (max-height: 400px) {
+  .bug-box {
+    display: none;
   }
+}
 
+@media screen and (max-width: 280px) {
   .two {
     display: none;
   }
