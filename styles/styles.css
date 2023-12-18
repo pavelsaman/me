@@ -18,14 +18,13 @@ body {
   font-family: "inter", sans-serif;
   font-weight: 300;
   color: #222;
-  white-space: nowrap;
 }
 
 h1 {
   font-size: 3rem;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 1.1rem;
+  margin: 2rem 0.7rem;
 }
 
 .contact-info p,
@@ -67,12 +66,12 @@ svg {
 .contact-info {
   display: flex;
   flex-direction: row;
-  column-gap: 15px;
+  column-gap: 1rem;
 }
 
 .bug-box {
   display: flex;
-  column-gap: 5px;
+  column-gap: 0.5rem;
   width: 100vw;
   align-items: center;
   position: absolute;
@@ -90,4 +89,19 @@ svg {
 
 #bug:hover + .bug-secret-text {
   visibility: visible;
+}
+
+@media screen and (max-width: 430px) {
+  .container {
+    justify-content: flex-start;
+    row-gap: 1rem;
+  }
+
+  .main-info {
+    row-gap: 1rem;
+  }
+
+  .contact-info {
+    flex-direction: column;
+  }
 }
