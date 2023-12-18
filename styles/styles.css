@@ -103,3 +103,30 @@ svg {
     flex-direction: column;
   }
 }
+
+@media screen and (orientation: landscape) and (max-height: 350px) {
+  .container {
+    justify-content: flex-start;
+  }
+
+  .one {
+    display: flex;
+    column-gap: 1rem;
+  }
+
+  .two {
+    display: none;
+  }
+}
+
+@media screen and (orientation: portrait) and (max-height: 444px) {
+  .one {
+    display: flex;
+    flex-direction: column;
+    column-gap: 1rem;
+  }
+
+  .two {
+    display: none;
+  }
+}
