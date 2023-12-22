@@ -53,8 +53,7 @@ svg {
 
 /* Concrete rules */
 
-.contact-info p,
-.main-info p {
+.p-main {
   font-size: 1.5rem;
   margin-top: 0;
 }
@@ -89,7 +88,7 @@ svg {
   width: 100vw;
 }
 
-.bug-secret-text {
+.p-bug-secret-text {
   font-size: 1rem;
   visibility: hidden;
 }
@@ -98,7 +97,7 @@ svg {
   width: 30px;
 }
 
-#bug:hover + .bug-secret-text {
+#bug:hover + .p-bug-secret-text {
   visibility: visible;
 }
 
